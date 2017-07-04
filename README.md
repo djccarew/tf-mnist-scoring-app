@@ -8,6 +8,7 @@ The model was built using a Convolutional Neural Network using the approach outl
 To run the app just enter a digit in the canvas, and click the *Read digit* button. The app will respond with it's prediction and a confidence level. If confidence the level is below 85% the app will ignore the proediction.  **Note:** the model was *only* trained on handwritten digits so it's performance on non-digits or with random doodling may be unpredictable.
 
 Click on the button below to automatically deploy this app to Bluemix
+
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
 
 
@@ -147,7 +148,7 @@ And voila! You now have your very own instance of the TensorFlow MNIST driver ru
  
  9. Note the name of your Object Storage instance (it will be something like *Object Storage-05*)
  
- 10. From your local command line enter the follwing command to bind the service to your app (put quotes around your service name if it contains  spaces)
+ 10. From your local command line enter the following command to bind the service to your app (put quotes around your service name if it contains  spaces)
  
     ```
     $ cf bind-service tf-minist-scoring "your Object Storage instance name"
