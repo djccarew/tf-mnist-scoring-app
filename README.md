@@ -1,5 +1,7 @@
 # TensorFlow MNIST Scoring Overview
 
+![alt text](https://ibm.box.com/shared/static/w3gs8zo4nl6vdtfd43aimh73hsapypq9.png)
+
 The TensorFlow MNIST Scoring application is a Python application that captures a handwritten digit and then predicts it's value using a model developed for the MNIST dataset and then saved for reuse.
 
 The model was built using a Convolutional Neural Network using the approach outlined in this tutorial. The model acheived 99.26% accuracy on the 10,000 digits in the MNIST test dataset.
@@ -54,7 +56,7 @@ Click on the button below to automatically deploy this app to Bluemix
   $ cf push
   ```
 
-And voila! You now have your very own instance of the TensorFlow MNIST driver running on Bluemix.
+And voila! You now have your very own instance of the TensorFlow MNIST Scoring app running on Bluemix.
 
 ## Running the app locally
 
