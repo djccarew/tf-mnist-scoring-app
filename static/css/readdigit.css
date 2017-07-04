@@ -1,0 +1,38 @@
+
+
+.drawing-container {
+  border:1px solid silver;
+   height: 142px;
+  width: 142px;
+     margin-top: 20px;
+}
+
+.btn + .btn {
+  margin-left: 2px;
+}
+
+.center-block {
+  width: 200px;
+}
+
+.center-block2 {
+  width: 300px;
+}
+
+.button-container {
+   margin-top: 20px;
+}
+
+.valign {
+  font-size: 0;
+  margin-top: 3px;
+  padding-top: 0px;
+}
+
+.valign > [class*="col"] {
+  display: inline-block;
+  float: none;
+  font-size: 14px;
+  font-size: 1rem;
+  vertical-align: middle;
+}
