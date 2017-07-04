@@ -4,7 +4,7 @@
 
 The TensorFlow MNIST Scoring application is a Python application that captures a handwritten digit and then predicts it's value using a model developed for the MNIST dataset and then saved for reuse.
 
-The model was built using a Convolutional Neural Network using the approach outlined in this tutorial. The model acheived 99.26% accuracy on the 10,000 digits in the MNIST test dataset.
+The model was built using a Convolutional Neural Network using the approach outlined in this [tutorial](https://www.tensorflow.org/get_started/mnist/pros). The model achieved 99.26% accuracy on the 10,000 digits in the MNIST test dataset.
 
 
 To run the app just enter a digit in the canvas, and click the *Read digit* button. The app will respond with it's prediction and a confidence level. If confidence the level is below 85% the app will ignore the proediction.  **Note:** the model was *only* trained on handwritten digits so it's performance on non-digits or with random doodling may be unpredictable.
