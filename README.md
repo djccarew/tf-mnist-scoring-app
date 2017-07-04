@@ -89,7 +89,7 @@ And voila! You now have your very own instance of the TensorFlow MNIST Scoring a
  
  1. If you haven't already signed up for the IBM Data Science Experience [sign up here][dse_signup-url]
  
- 2. Once logged in to the IBM Data Science Experience, create a new notebook using the **FROM URL** option and this URL
+ 2. Once logged in to the IBM Data Science Experience, create a new notebook using the **FROM URL** option and point it to this [URL](https://ibm.box.com/shared/static/6dx1zg3he5hgh7y1hc66kbqxevae0xm1.ipynb)
  
  3. Run the code in the notebook to build a new model and to save that model in the Object Storage instance associated  with your Data Science Experience project
  
