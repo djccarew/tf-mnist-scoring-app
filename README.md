@@ -87,7 +87,7 @@ And voila! You now have your very own instance of the TensorFlow MNIST Scoring a
  
  ## Using your own model 
  
- 1. If you haven't already signed up for the IBM Data Science Experience [sign up here][dse_signup-url]
+ 1. If you haven't already signed up for the IBM Data Science Experience [sign up here][dse_signup_url]
  
  2. Once logged in to the IBM Data Science Experience, create a new notebook using the **FROM URL** option and point it to this [URL](https://ibm.box.com/shared/static/6dx1zg3he5hgh7y1hc66kbqxevae0xm1.ipynb)
  
