@@ -184,7 +184,7 @@ Deployment tracking can be disabled by removing the line  `cf_deployment_tracker
 
 
 ## License
-This app is licensed under the [Apache 2.0 license][LICENSE]. It utilizes the [jqScribble](https://github.com/jimdoescode/jqScribble) jQuery plug-in to capture user input. 
+This app is licensed under the [Apache 2.0 license](LICENSE). It utilizes the [jqScribble](https://github.com/jimdoescode/jqScribble) jQuery plug-in to capture user input. 
 
 It also uses [jQuery](http://jquery.com) and [Bootstrap](http://getbootstrap.com) which are both licensed under the [MIT License](https://opensource.org/licenses/MIT).
  
