@@ -25,13 +25,17 @@ import requests
 import json  
 import pandas as pd
 import tensorflow as tf
+import cf_deployment_tracker
 
 model_ready = False
 model_files_available= False
 credentials_available = False
 
 ### Replace the value with your own  Object Storage container name
-container_name ="you Objcet storage container name"
+container_name ="you Object storage container name"
+
+# Emit Bluemix deployment event
+cf_deployment_tracker.track()
 
 app = Flask(__name__)
 

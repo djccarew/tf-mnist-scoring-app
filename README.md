@@ -163,9 +163,30 @@ And voila! You now have your very own instance of the TensorFlow MNIST Scoring a
     ```
  13. When your app is run again the model file will be downloaded from Object Storage
  
+ ## Privacy Notice
+
+This app is  configured to track deployments to [IBM Bluemix](https://www.bluemix.net/) and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker](https://github.com/IBM-Bluemix/cf-deployment-tracker-service) service on each deployment:
+
+* Python package version
+* Python repository URL
+* Application Name (application_name)
+* Space ID (space_id)
+* Application Version (application_version)
+* Application URIs (application_uris)
+* Labels of bound services
+* Number of instances for each bound service and associated plan information
+
+This data is collected from the setup.py file in the sample application and the VCAP_APPLICATION and VCAP_SERVICES environment variables in IBM Bluemix and other Cloud Foundry platforms. This data is used by IBM to track metrics around deployments of sample applications to IBM Bluemix to measure the usefulness of our examples, so that we can continuously improve the content we offer to you. Only deployments of sample applications that include code to ping the Deployment Tracker service will be tracked.
+
+## Disabling Deployment Tracking
+
+Deployment tracking can be disabled by removing the line  `cf_deployment_tracker.track()` from the  `scoring.py` file.
+
 
 ## License
-This app is licensed under the Apache 2.0 license. It utilizes the [jqScribble](https://github.com/jimdoescode/jqScribble) jQuery plug-in to capture user input. 
+This app is licensed under the ![Apache 2.0 license](./LICENSE). It utilizes the [jqScribble](https://github.com/jimdoescode/jqScribble) jQuery plug-in to capture user input. 
+
+It also uses [jQuery](http://jquery.com) and [Bootstrap](http://getbootstrap.com) which are both licensed under the [MIT License](https://opensource.org/licenses/MIT).
  
 [bluemix_signup_url]: http://ibm.biz/box-api-signup
 [dse_signup_url]: http://datascience.ibm.com
